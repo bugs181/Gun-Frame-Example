@@ -1,0 +1,22 @@
+{
+  "name": "frame-gun-example",
+  "version": "1.0.0",
+  "description": "An example of using Gun with Frame",
+  "main": "index.js",
+  "devDependencies": {
+    "frame": "https://github.com/frame-js/Frame/tarball/master",
+    "gun": "https://github.com/amark/gun/tarball/master"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gun",
+    "Frame",
+    "Database",
+    "Flow",
+    "Blueprint"
+  ],
+  "author": "Levi Roberts",
+  "license": "MIT"
+}
