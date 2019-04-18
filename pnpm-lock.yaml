@@ -20,22 +20,22 @@ packages:
     optional: true
     resolution:
       integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
-  /nan/2.13.1:
+  /nan/2.13.2:
     dev: true
     optional: true
     resolution:
-      integrity: sha512-I6YB/YEuDeUZMmhscXKxGgZlFnhsn5y0hgOZBadkzfTRrZBtJDZeg6eQf7PYMIEclwmorTKK8GztsyOUSVBREA==
-  /node-webcrypto-ossl/1.0.42:
+      integrity: sha512-TghvYc72wlMGMVMluVo9WRJc0mB8KxxF/gZ4YYFy7V2ZQX9l7rgbPg7vjS9mt6U5HXODVFVI2bOduCzwOMv/lw==
+  /node-webcrypto-ossl/1.0.43:
     dependencies:
       mkdirp: 0.5.1
-      nan: 2.13.1
+      nan: 2.13.2
       tslib: 1.9.3
       webcrypto-core: 0.1.26
     dev: true
     optional: true
     requiresBuild: true
     resolution:
-      integrity: sha512-EjnUO+j+0bDtYLvl5/c+QoWDJebhjCCIajSod0vtNBwtLNbgjxiGrmsGEbNaBSbi5rUWKS5zGP3Zl4/pLOka0g==
+      integrity: sha512-AavMGbUB2MaTzli0+swjSAr4aLqf9M5jHIrs5VP9EUDXyEaIOyyio3H1z3pZCxKpaDD9coKWD3bWAiaIBuN8wg==
   /text-encoding/0.7.0:
     deprecated: no longer maintained
     dev: true
@@ -68,7 +68,7 @@ packages:
       node: '>=0.8.4'
     name: gun
     optionalDependencies:
-      node-webcrypto-ossl: 1.0.42
+      node-webcrypto-ossl: 1.0.43
       text-encoding: 0.7.0
     resolution:
       tarball: 'https://github.com/amark/gun/tarball/master'
