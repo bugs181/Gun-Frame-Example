@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "An example of using Gun with Frame",
   "main": "index.js",
-  "devDependencies": {
-    "frame": "https://github.com/frame-js/Frame/tarball/master"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +14,8 @@
     "Blueprint"
   ],
   "author": "Levi Roberts",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "frame": "https://github.com/frame-js/Frame/tarball/master"
+  }
 }

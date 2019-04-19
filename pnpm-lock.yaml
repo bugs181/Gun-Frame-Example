@@ -1,9 +1,9 @@
-devDependencies:
+dependencies:
   frame: github.com/frame-js/Frame/tarball/master
 lockfileVersion: 5
 packages:
   github.com/frame-js/Frame/tarball/master:
-    dev: true
+    dev: false
     name: frame
     resolution:
       tarball: 'https://github.com/frame-js/Frame/tarball/master'
