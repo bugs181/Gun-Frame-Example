@@ -1,78 +1,7 @@
 devDependencies:
   frame: github.com/frame-js/Frame/tarball/master
-  gun: github.com/amark/gun/tarball/master
 lockfileVersion: 5
 packages:
-  /async-limiter/1.0.0:
-    dev: true
-    resolution:
-      integrity: sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
-  /minimist/0.0.8:
-    dev: true
-    optional: true
-    resolution:
-      integrity: sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
-  /mkdirp/0.5.1:
-    dependencies:
-      minimist: 0.0.8
-    dev: true
-    hasBin: true
-    optional: true
-    resolution:
-      integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
-  /nan/2.13.2:
-    dev: true
-    optional: true
-    resolution:
-      integrity: sha512-TghvYc72wlMGMVMluVo9WRJc0mB8KxxF/gZ4YYFy7V2ZQX9l7rgbPg7vjS9mt6U5HXODVFVI2bOduCzwOMv/lw==
-  /node-webcrypto-ossl/1.0.43:
-    dependencies:
-      mkdirp: 0.5.1
-      nan: 2.13.2
-      tslib: 1.9.3
-      webcrypto-core: 0.1.26
-    dev: true
-    optional: true
-    requiresBuild: true
-    resolution:
-      integrity: sha512-AavMGbUB2MaTzli0+swjSAr4aLqf9M5jHIrs5VP9EUDXyEaIOyyio3H1z3pZCxKpaDD9coKWD3bWAiaIBuN8wg==
-  /text-encoding/0.7.0:
-    deprecated: no longer maintained
-    dev: true
-    optional: true
-    resolution:
-      integrity: sha512-oJQ3f1hrOnbRLOcwKz0Liq2IcrvDeZRHXhd9RgLrsT+DjWY/nty1Hi7v3dtkaEYbPYe0mUoOfzRrMwfXXwgPUA==
-  /tslib/1.9.3:
-    dev: true
-    optional: true
-    resolution:
-      integrity: sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
-  /webcrypto-core/0.1.26:
-    dependencies:
-      tslib: 1.9.3
-    dev: true
-    optional: true
-    resolution:
-      integrity: sha512-BZVgJZkkHyuz8loKvsaOKiBDXDpmMZf5xG4QAOlSeYdXlFUl9c1FRrVnAXcOdb4fTHMG+TRu81odJwwSfKnWTA==
-  /ws/5.2.2:
-    dependencies:
-      async-limiter: 1.0.0
-    dev: true
-    resolution:
-      integrity: sha512-jaHFD6PFv6UgoIVda6qZllptQsMlDEJkTQcybzzXDYM1XO9Y8em691FGMPmM46WGyLU4z9KMgQN+qrux/nhlHA==
-  github.com/amark/gun/tarball/master:
-    dependencies:
-      ws: 5.2.2
-    dev: true
-    engines:
-      node: '>=0.8.4'
-    name: gun
-    optionalDependencies:
-      node-webcrypto-ossl: 1.0.43
-      text-encoding: 0.7.0
-    resolution:
-      tarball: 'https://github.com/amark/gun/tarball/master'
-    version: 0.9.9999991
   github.com/frame-js/Frame/tarball/master:
     dev: true
     name: frame
@@ -81,4 +10,3 @@ packages:
     version: 1.0.0
 specifiers:
   frame: 'https://github.com/frame-js/Frame/tarball/master'
-  gun: 'https://github.com/amark/gun/tarball/master'
